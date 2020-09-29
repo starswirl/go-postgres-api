@@ -1,0 +1,41 @@
+version: '3'
+
+networks:
+    backend:
+      driver: bridge
+
+services:
+    go:
+        container_name: go
+        build:
+            context: .
+            dockerfile: ./docker/go/Dockerfile
+        ports:
+            - 8080:8080
+            - 2345:2345
+        links:
+            # - mysql
+            - postgres
+        tty: true
+        volumes:
+            - ./src:/go/src/app
+        depends_on:
+            # - mysql
+            - postgres
+        security_opt:
+            - seccomp:unconfined
+        cap_add:
+            - SYS_PTRACE
+        networks:
+            - backend
+    postgres:
+        image: postgres:11.5
+        env_file: .env
+        container_name: go-api_db
+        ports:
+            - 8888:5432
+        networks:
+            - backend
+        volumes:
+            - ./docker/postgres/data:/var/lib/postgres
+
