@@ -6,5 +6,7 @@ COPY src/ /go/src/app/
 
 WORKDIR /go/src/app
 
-RUN go build
+
+RUN go get -u github.com/cosmtrek/air
+RUN go get -u github.com/go-delve/delve/cmd/dlv
 CMD air -c .air.toml
