@@ -9,4 +9,5 @@ WORKDIR /go/src/app
 
 RUN go get -u github.com/cosmtrek/air
 RUN go get -u github.com/go-delve/delve/cmd/dlv
+# ここあんまり理解してない
 CMD air -c .air.toml
