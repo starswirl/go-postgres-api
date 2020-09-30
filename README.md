@@ -4,7 +4,16 @@ go + gin + postgresのDocker環境
 
 ## 立ち上げ方
 
+1. .env.sampleを参考に.env作る
+
+2. 下記コマンド
+
+```bash
+cd server
+go get
+cd ..
 docker-compose up
+```
 
 ## コミットテンプレート
 
