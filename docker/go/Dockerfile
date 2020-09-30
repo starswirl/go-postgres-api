@@ -2,9 +2,9 @@ FROM golang:1.15.2
 
 ENV GO111MODULE=on
 
-COPY src/ /go/src/app/
+COPY server/ /go/server/app/
 
-WORKDIR /go/src/app
+WORKDIR /go/server/app
 
 
 RUN go get -u github.com/cosmtrek/air

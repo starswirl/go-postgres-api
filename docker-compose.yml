@@ -16,7 +16,7 @@ services:
             - postgres
         tty: true
         volumes:
-            - ./src:/go/src/app
+            - ./server:/go/server/app
         depends_on:
             - postgres
         security_opt:

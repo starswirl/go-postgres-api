@@ -1,7 +1,9 @@
 package main
 
-import "github.com/gin-gonic/gin"
-
+import (
+	"github.com/gin-gonic/gin"
+	"github.com/starswirl/go-postgres-api/src/db"
+)
 func main() {
 	r := gin.Default()
 	r.GET("/ping", func(c *gin.Context) {

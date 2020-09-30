@@ -13,8 +13,8 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
-src/.env
+server/.env
 docker/postgres/data
-src/tmp/
-src/__debug_bin
+server/tmp/
+server/__debug_bin
 .env
