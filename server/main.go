@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/starswirl/go-postgres-api/server/src/db"
 )
 func main() {
 	r := gin.Default()
