@@ -1,4 +1,4 @@
-module github.com/yolo-lin/go-demo
+module github.com/go-postgres-api/go-demo
 
 go 1.15
 
@@ -10,7 +10,7 @@ require (
 	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
-	github.com/starswirl/go-postgres-api v0.0.0-20200930024250-c820c671a1c9 // indirect
+	github.com/starswirl/go-postgres-api v0.0.0-20200930064955-fe8aee159337 // indirect
 	github.com/ugorji/go v1.1.8 // indirect
 	golang.org/x/sys v0.0.0-20200923182605-d9f96fdee20d // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
