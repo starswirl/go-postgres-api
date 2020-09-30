@@ -7,8 +7,8 @@
 ```bash output
  src
  ├── controller // 
- ├── db         // 
- ├── entity     // 
+ ├── db         // GORM を使って PostgreSQL との接続
+ ├── entity     // model の定義だけを扱う
  ├── server     // 
  └── service    // 
 ```
