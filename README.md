@@ -4,9 +4,10 @@ go + gin + postgresのDocker環境
 
 ## 立ち上げ方
 
-1. .env.sampleを参考に.env作る
+1. [Go環境構築](doc/Go環境構築.md)を読む
+2. .env.sampleを参考に.env作る
 
-2. 下記コマンド
+3. 下記コマンド
 
 ```bash
 cd server
