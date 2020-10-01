@@ -17,7 +17,7 @@ var (
 func Init() {
 	fmt.Println("init!!!")
 	// FIXME: 環境変数化
-	db, err = gorm.Open("postgres", "host=postgres user=go-api dbname=go-api password=go-api sslmode=disable")
+	db, err = gorm.Open("postgres", "host=postgres user=go-api dbname=postgres password=go-api sslmode=disable")
 	if err != nil {
 		panic(err)
 	}
@@ -37,5 +37,6 @@ func Close() {
 	}
 }
 func autoMigration() {
+	fmt.Println("autoMigration!!!")
 	db.AutoMigrate(&entity.User{})
 }

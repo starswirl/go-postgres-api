@@ -16,6 +16,10 @@ cd ..
 docker-compose up
 ```
 
+8080ポートをローカルに転送
+http://localhost:8080/usersにGETリクエスト
+
+
 ## フォーマット
 
 ```
