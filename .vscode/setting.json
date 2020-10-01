@@ -1,0 +1,49 @@
+{
+    "editor.formatOnSave": true,
+    "eslint.enable": true,
+    // ========== TODO Highlight ==========
+    "todohighlight.defaultStyle": {
+        "border": "1px solid #FFFFFF",
+        "borderRadius": "8px",
+        "color": "#FFFFFF",
+        "isWholeLine": true
+    },
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+        {
+        "text": "FIXME:",
+        "backgroundColor": "#C60000",
+        "overviewRulerColor": "#FF0000"
+        },
+        {
+        "text": "REVIEW:",
+        "backgroundColor": "#C68400",
+        "overviewRulerColor": "#FFAA00"
+        },
+        {
+        "text": "TODO:",
+        "backgroundColor": "#0D3184",
+        "overviewRulerColor": "#1240AB"
+        },
+        {
+        "text": "NOTE:",
+        "backgroundColor": "#009E00",
+        "overviewRulerColor": "#00CC00"
+        }
+    ],
+    "todohighlight.toggleURI": true,
+    "todohighlight.exclude":[
+      "**/node_modules/**",
+      "**/bower_components/**",
+      "**/dist/**",
+      "**/public/**",
+      "**/build/**",
+      "**/.vscode/**",
+      "**/.github/**",
+      "**/_output/**",
+      "**/*.min.*",
+      "**/*.map",
+      "**/.next/**"
+    ]
+}
