@@ -16,6 +16,13 @@ cd ..
 docker-compose up
 ```
 
+## フォーマット
+
+```
+cd server
+go fmt ./...
+```
+
 ## コミットテンプレート
 
 ```emoji
