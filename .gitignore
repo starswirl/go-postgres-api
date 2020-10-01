@@ -15,6 +15,7 @@
 # vendor/
 server/.env
 docker/postgres/data
+docker/pgadmin/data
 server/tmp/
 server/__debug_bin
 .env
