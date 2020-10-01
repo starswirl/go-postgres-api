@@ -1,6 +1,8 @@
 # go-postgres-api
 
-go + gin + postgresのDocker環境
+go + gin + GORM + postgresのDocker環境
+
+
 
 ## 立ち上げ方
 
