@@ -34,16 +34,13 @@
     ],
     "todohighlight.toggleURI": true,
     "todohighlight.exclude":[
-      "**/node_modules/**",
-      "**/bower_components/**",
-      "**/dist/**",
+      "**/tmp/**",
       "**/public/**",
       "**/build/**",
       "**/.vscode/**",
       "**/.github/**",
       "**/_output/**",
       "**/*.min.*",
-      "**/*.map",
-      "**/.next/**"
+      "**/*.map"
     ]
 }
