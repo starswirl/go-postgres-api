@@ -8,5 +8,5 @@ import (
 func main() {
 	db.Init()
 	server.Init()
-	// FIXME: error handling と validation
+	db.Close()
 }
