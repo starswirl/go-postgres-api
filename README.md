@@ -1,7 +1,8 @@
 # go-postgres-api
 
-go + gin + GORM + postgresのDocker環境
+go + gin + GORM + postgresのDockerAPI環境
 
+Airでライブリロード開発ができる
 
 
 ## 立ち上げ方
